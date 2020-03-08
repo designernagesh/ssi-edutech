@@ -1,0 +1,35 @@
+/* Basic jQuery Slider essential styles */
+
+/* Demo CSS - You do not need this css in your own slider */
+ul.bjqs-controls.v-centered li a{display:block;	padding:40px 0px 40px 40px;}
+ul.bjqs-controls.v-centered li a:hover{background:#000; color:#fff;}
+ol.bjqs-markers li a{width:15px; height:15px;	background:#ef3e36;	margin:5px;	text-decoration: none; font-size:0.0001em; border-radius:50px;}
+
+ol.bjqs-markers li.active-marker a,ol.bjqs-markers li a:hover{background: #FFF;}
+p.bjqs-caption{background: rgba(255,255,255,0.4);}
+
+ul.bjqs{position:relative; list-style:none;padding:0;margin:0;overflow:hidden; display:none;}
+li.bjqs-slide{position:absolute; display:none;}
+ul.bjqs-controls{list-style:none;margin:0;padding:0;z-index:9999;}
+ul.bjqs-controls.v-centered li a{position:absolute;}
+ul.bjqs-controls.v-centered li.bjqs-next a{right:0; background: url(../images/next.png) top left no-repeat;}
+ul.bjqs-controls.v-centered li.bjqs-prev a{left:15px; background: url(../images/prev.png) top left no-repeat;}
+ul.bjqs-controls.v-centered li.bjqs-next a:hover {background: url(../images/next-hover.png) top left no-repeat;}
+ul.bjqs-controls.v-centered li.bjqs-prev a:hover {background: url(../images/prev-hover.png) top left no-repeat;}
+
+ol.bjqs-markers{list-style: none; padding: 0; margin: -40px 15px 0 0; width:100%; position:absolute;}
+ol.bjqs-markers.h-centered{text-align: right;}
+ol.bjqs-markers li{display:inline;}
+ol.bjqs-markers li a{display:inline-block;}
+p.bjqs-caption{display:none; width:96%; margin:0; padding:2%; position:absolute; bottom:0; font-size:36px; color:#FFF;}
+
+ul.bjqs li.slide1{background:url(../images/tree-banner.png) top left no-repeat;}
+ul.bjqs li.slide2, ul.bjqs li.slide3{background:url(../images/banner-bg.jpg) top left no-repeat;}
+
+.banner .text{color:#353c4b; width:600px; margin:75px 70px 0 90px; float:left}
+.banner video.banner-video {width:492px; height:277px; border:4px solid #a2a09f; margin-top:75px;}
+
+.banner h2{font-size:36px; margin:0 0 20px; color:#ef3e36; text-shadow:-1px -1px #5e5e5e;}
+
+.banner a.more{color:#FFF; background:#ef3e36; text-decoration:none; padding:7px 20px; box-shadow:2px 2px #2f2f2f; margin:25px 0 0; float:right}
+.banner a.more:hover{background:#5e5e5e;}
